@@ -1,0 +1,18 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "History",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "userId",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "viewedAt",
+          "order": "DESCENDING"
+        }
+      ]
+    }
+  ]
+}
